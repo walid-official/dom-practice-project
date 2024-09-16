@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.bg-color{
+    background-color: aqua;
+    color: white;
+    
+}
+.bg-remove{
+    background-color: transparent;
+    
+}
