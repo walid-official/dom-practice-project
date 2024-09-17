@@ -6,9 +6,9 @@
 }
 
 ul{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    background-color: beige;
+    display: none;
+    transition: all 1s;
 }
 
 li{
@@ -24,4 +24,18 @@ li{
 .bg-remove{
     background-color: transparent;
     
+}
+#bar{
+    background-color: aquamarine;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+#bar i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#close-bar{
+    display: none;
 }

@@ -7,7 +7,6 @@ let storeContainer = document.getElementById('store');
 insert_btn.addEventListener('click',function(){
     let expensesConvert = Number(expensesInput.value);
     let amountSum = Number(amountInsertItem.innerText);
-   
     amountInsertItem.innerHTML = amountSum + expensesConvert;
     expensesInput.value = ""
     let itemsValue = itemInput.value;
